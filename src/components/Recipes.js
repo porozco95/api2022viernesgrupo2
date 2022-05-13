@@ -7,7 +7,7 @@ const Recipes = () => {
 
     const [recipes, setRecipes] = useState([])
     const [search, setSearch] = useState("");
-    const [query, setQuery] = useState('meat')
+    const [query, setQuery] = useState('pop')
   
     useEffect(() => {
       getRecipes();

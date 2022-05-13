@@ -8,8 +8,9 @@ export default function Navbar() {
         <NavLink to='/'className='logo'> RecetasApp </NavLink>
         <div className='nav-links'>
             <NavLink to='/'> Home </NavLink>
-            <NavLink to='/recipes'> Recetas </NavLink>
             <NavLink to='/login'> LogIn </NavLink>
+            <NavLink to='/settings'> Perfil </NavLink>
+            <NavLink to='/about'> About Us </NavLink>
         </div>
     </div>
   )

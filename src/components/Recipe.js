@@ -19,11 +19,11 @@ const Recipe = ({title,image,ingredient,category,instructions}) => {
                 ))}    
             </ul>
             <h2>Procedimiento</h2>
-            <ol> 
+            <ul> 
                 {instructions.map(instructions => (
                     <li>{instructions.step}</li>
                 ))}    
-            </ol>
+            </ul>
             <h2>Calificacion: 5</h2>
         </div>
     );
